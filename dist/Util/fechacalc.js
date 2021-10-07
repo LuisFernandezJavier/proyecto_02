@@ -12,13 +12,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.fechacalc = void 0;
 const entradaTeclado_1 = require("./entradaTeclado");
 const fechacalc = () => __awaiter(void 0, void 0, void 0, function* () {
-    // sacando la fecha actual en la que se ejecuta.
-    //let fhoy = new Date ();
-    //let dia = fhoy.getDate(); 
-    //let mes = fhoy.getMonth() + 1;
-    //let año = fhoy.getFullYear();
-    //let fechahoy = `${año}-${mes}-${dia}`
-    //paso de string a formato fecha para posteriormente calcular milisegundos
     let fechahoy2 = new Date();
     // pido fecha de nacimiento
     let fnacimiento = new Date(yield (0, entradaTeclado_1.leerTeclado)('Introduce tu fecha de nacimiento (formato: "aaaa-mm-dd")'));

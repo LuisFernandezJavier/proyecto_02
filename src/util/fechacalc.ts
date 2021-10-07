@@ -1,14 +1,6 @@
 
 import { leerTeclado } from "./entradaTeclado";
 export const  fechacalc = async () => {
-    // sacando la fecha actual en la que se ejecuta.
-    //let fhoy = new Date ();
-    //let dia = fhoy.getDate(); 
-    //let mes = fhoy.getMonth() + 1;
-    //let año = fhoy.getFullYear();
-    //let fechahoy = `${año}-${mes}-${dia}`
-
-    //paso de string a formato fecha para posteriormente calcular milisegundos
     let fechahoy2 = new Date ()
 
     // pido fecha de nacimiento
